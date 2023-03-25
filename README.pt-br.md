@@ -4,6 +4,10 @@
 
 Este microserviço foi desenvolvido para armazenar e recuperar imagens do MongoDB utilizando Spring Boot e RabbitMQ.
 
+De forma geral, seria mais interessante enviar as imagens para um serviço de armazenamento em nuvem, como o Amazon S3, possivelmente diretamente do front-end com uma URL pré-autorizada, para evitar operações de I/O bloqueantes e aliviar a carga do lado do servidor.
+
+Este projeto é apenas uma experimentação pessoal com o MongoDB.
+
 ## Instalação
 
 Para utilizar este serviço, você precisará ter Java 17+ e também precisará ter o MongoDB e o RabbitMQ instalados.

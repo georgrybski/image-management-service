@@ -4,6 +4,10 @@
 
 This microservice is designed to store and retrieve images from MongoDB using Spring Boot and RabbitMQ.
 
+Generally speaking, it would be more interesting to send images to a bucket like S3, possibly from the front-end with a pre-signed url to avoid blocking I/O operations and take the strain off the server-side.
+
+This project is just my personal experimentation with MongoDB.
+
 ## Installation
 
 To use this service, you will need to have Java 17+ and you'll also need to have MongoDB and RabbitMQ installed. 
