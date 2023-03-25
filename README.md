@@ -1,3 +1,5 @@
+[English](README.md) | [Português](README.pt-br.md)
+
 # Image Management Service
 
 This microservice is designed to store and retrieve images from MongoDB using Spring Boot and RabbitMQ.
